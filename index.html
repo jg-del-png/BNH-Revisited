@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <meta name="author" content="Julie G.">
+    <title>Bear Ninja Hunter Revisited</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Bear, Ninja, Hunter</h2>
+
+<div id="game-container">
+
+    <p>Click a button below to make your choice.</p>
+
+    <hr class="divider">
+
+    <div id="buttons">
+        <button onclick="playGame('Bear')">Bear</button>
+        <button onclick="playGame('Ninja')">Ninja</button>
+        <button onclick="playGame('Hunter')">Hunter</button>
+    </div>
+
+    <hr class="divider">
+
+    <div id="results"></div>
+
+    <div id="winCounter">
+        Player Wins: <span id="playerWins">0</span><br>
+        Computer Wins: <span id="computerWins">0</span>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
